@@ -64,7 +64,7 @@ body {
   }
   
   .noticia {
-    width: 200px;
+    width: 300px; /* Ajusta este valor según tus preferencias */
     margin-bottom: 30px;
     padding: 50px;
     background-color: #d0d0d0;
@@ -188,4 +188,28 @@ body {
     padding: 10px;
     text-align: center;
   }
-  
+  .comentario {
+    transition: background-color 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comentario:hover {
+  background-color: #f0f0f0;
+}
+.boton-eliminar {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.boton-eliminar:hover {
+  background-color: #d32f2f;
+}
+#comentarios {
+  transition: height 0.3s ease;
+}
+
